@@ -1,0 +1,42 @@
+export const notifications = [
+  {
+    id: 1,
+    type: "connection",
+    title: "New Connection Request",
+    message: "Ali Ahmed sent you a connection request.",
+    time: "5 minutes ago",
+    read: false,
+  },
+  {
+    id: 2,
+    type: "group",
+    title: "New Group Activity",
+    message: "A new post was added to Web Development Group.",
+    time: "20 minutes ago",
+    read: false,
+  },
+  {
+    id: 3,
+    type: "event",
+    title: "Upcoming Event",
+    message: "React Workshop starts tomorrow at 10:00 AM.",
+    time: "1 hour ago",
+    read: false,
+  },
+  {
+    id: 4,
+    type: "message",
+    title: "New Message",
+    message: "Sara Khan sent you a new message.",
+    time: "2 hours ago",
+    read: true,
+  },
+  {
+    id: 5,
+    type: "connection",
+    title: "Connection Accepted",
+    message: "Usman Malik accepted your connection request.",
+    time: "Yesterday",
+    read: true,
+  },
+];
